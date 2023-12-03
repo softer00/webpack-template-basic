@@ -1,0 +1,9 @@
+PS D:\WEB\webpack-template-basic> npm init -y
+PS D:\WEB\webpack-template-basic> npm i -D webpack webpack-cli webpack-dev-server@next
+  
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+
+  

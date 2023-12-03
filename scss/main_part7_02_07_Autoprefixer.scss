@@ -1,0 +1,13 @@
+$color--black: #000;
+$color--white: #fff;
+
+body {
+    /* background-color: orange; */
+    // background-color: royalblue;
+    background-color: $color--black;
+    h1 {
+        color: $color--white;
+        font-size: 40px;
+        display: flex;  // 공급업체 접두사가 잘 붙는지 확인 위해
+    }
+}
